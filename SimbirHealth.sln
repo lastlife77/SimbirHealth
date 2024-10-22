@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccountService", "AccountService", "{80EE8E00-0FFE-48F8-8047-7EB7C6E26D3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HospitalService", "HospitalService", "{D4256083-43C0-4B42-9693-3AF1211354EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocumentService", "DocumentService", "{C20AAEC4-FEEB-49F1-9F97-FCDD5C9B9146}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Domain", "HospitalService\Hospital.Domain\Hospital.Domain.csproj", "{DC7A6233-078E-405E-B125-E99E083533A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Document.Domain", "DocumentService\Document.Domain\Document.Domain.csproj", "{3E982778-D3CB-4AB3-9B89-437738A3B096}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Account.Domain", "AccountService\Account.Domain\Account.Domain.csproj", "{38BCDA9D-6C2D-4322-88B9-4EB124BECE6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimetableService", "TimetableService", "{B25724FB-7950-4876-A5E7-F5F3629ED675}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timetable.Domain", "TimetableService\Timetable.Domain\Timetable.Domain.csproj", "{CF4BCF71-C9B4-49C2-B1B7-3E7AD26CAA41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC7A6233-078E-405E-B125-E99E083533A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7A6233-078E-405E-B125-E99E083533A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7A6233-078E-405E-B125-E99E083533A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7A6233-078E-405E-B125-E99E083533A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E982778-D3CB-4AB3-9B89-437738A3B096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E982778-D3CB-4AB3-9B89-437738A3B096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E982778-D3CB-4AB3-9B89-437738A3B096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E982778-D3CB-4AB3-9B89-437738A3B096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38BCDA9D-6C2D-4322-88B9-4EB124BECE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BCDA9D-6C2D-4322-88B9-4EB124BECE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BCDA9D-6C2D-4322-88B9-4EB124BECE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BCDA9D-6C2D-4322-88B9-4EB124BECE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4BCF71-C9B4-49C2-B1B7-3E7AD26CAA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4BCF71-C9B4-49C2-B1B7-3E7AD26CAA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4BCF71-C9B4-49C2-B1B7-3E7AD26CAA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4BCF71-C9B4-49C2-B1B7-3E7AD26CAA41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC7A6233-078E-405E-B125-E99E083533A3} = {D4256083-43C0-4B42-9693-3AF1211354EF}
+		{3E982778-D3CB-4AB3-9B89-437738A3B096} = {C20AAEC4-FEEB-49F1-9F97-FCDD5C9B9146}
+		{38BCDA9D-6C2D-4322-88B9-4EB124BECE6C} = {80EE8E00-0FFE-48F8-8047-7EB7C6E26D3B}
+		{CF4BCF71-C9B4-49C2-B1B7-3E7AD26CAA41} = {B25724FB-7950-4876-A5E7-F5F3629ED675}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4E35505-1268-404B-AF22-59BB5B572585}
+	EndGlobalSection
+EndGlobal
